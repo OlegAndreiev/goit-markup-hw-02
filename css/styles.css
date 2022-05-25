@@ -1,0 +1,98 @@
+/* Цвет основного текста color: rgba(117, 117, 117, 1) */
+
+/* Цвет вспомогательного текста rgba(33, 33, 33, 1) */
+
+/* Белый цвет #FFFFFF rgba(255, 255, 255, 1) */
+
+/* Акцент цвет #2196F3 rgba(33, 150, 243, 1)*/
+
+/* Вторичный цвет фона rgba(245, 244, 250, 1) */
+
+/* Цвет в футере rgba(255, 255, 255, 0.6) */
+
+:root {
+  --primary-text-color: rgba(117, 117, 117, 1);
+  --title-text-color: rgba(33, 33, 33, 1);
+  --accent-color: rgba(33, 150, 243, 1);
+  --primary-bg-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  color: var(--title-text-color);
+}
+
+.pre-logo {
+  color: var(--accent-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Site nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+color: var(--accent-color);
+}
+
+/* Auth nav */
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero-title {
+  color: var(--primary-bg-color);
+}
+
+/* Section */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Features */
+.features-list .title {
+  color: var(--title-text-color);
+}
+
+/* Work  */
+
+/* Team  */
+.team-list .title {
+  color: var(--title-text-color);
+}
+
+.team-bgc {
+    background-color: rgba(245, 244, 250, 1);
+}
+
+/* Footer  */
+.footer-bgc {
+   background-color: rgba(47, 48, 58, 1); 
+}
+
+.work-address {
+    rgba(255, 255, 255, 1)
+}
+
+.contacts {
+    rgba(255, 255, 255, 0.6)
+}
+
