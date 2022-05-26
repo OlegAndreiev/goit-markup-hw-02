@@ -48,7 +48,7 @@ a {
 }
 
 .site-nav .link.current {
-color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 /* Auth nav */
@@ -80,19 +80,34 @@ color: var(--accent-color);
 }
 
 .team-bgc {
-    background-color: rgba(245, 244, 250, 1);
+  background-color: rgba(245, 244, 250, 1);
 }
 
 /* Footer  */
 .footer-bgc {
-   background-color: rgba(47, 48, 58, 1); 
+  background-color: rgba(47, 48, 58, 1);
 }
 
 .work-address {
-    rgba(255, 255, 255, 1)
+  color: rgba(255, 255, 255, 1);
 }
 
 .contacts {
-    rgba(255, 255, 255, 0.6)
+  color: rgba(255, 255, 255, 0.6);
 }
 
+/* Кнопка */
+.button {
+  color: white;
+  background-color: black;
+}
+
+/* Портолио */
+
+.projects-list .title {
+  color: var(--title-text-color);
+}
+
+.projects-list .item {
+  color: var(--primary-text-color);
+}
