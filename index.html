@@ -6,11 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Шапка -->
     <header>
-      <a href="./index.html" class="logo"><span class="pre-logo">Web</span>Studio</a>
+      <a href="./index.html" class="logo link"><span class="pre-logo">Web</span>Studio</a>
       <nav>
         <ul class="site-nav list">
           <li><a href="./index.html" class="link current">Студия</a></li>
@@ -31,11 +37,11 @@
     <main>
       <section class="hero">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+        <button type="button" class="button">Заказать услугу</button>
       </section>
       <!-- Особенности -->
       <section class="section">
-        <h2 hidden class="section-title">Особенности</h2>
+        <h2 class="section-title visually-hidden">Особенности</h2>
         <ul class="features-list list">
           <li>
             <h3 class="title">Внимание к деталям</h3>
@@ -101,7 +107,7 @@
               height="260"
             />
             <h3 class="title">Игорь Демьяненко</h3>
-            <p lang="en">Product Designer</p>
+            <p lang="en" class="text">Product Designer</p>
           </li>
           <li>
             <img
@@ -111,7 +117,7 @@
               height="260"
             />
             <h3 class="title">Ольга Репина</h3>
-            <p lang="en">Frontend Developer</p>
+            <p lang="en" class="text">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -121,7 +127,7 @@
               height="260"
             />
             <h3 class="title">Николай Тарасов</h3>
-            <p lang="en">Marketing</p>
+            <p lang="en" class="text">Marketing</p>
           </li>
           <li>
             <img
@@ -131,24 +137,24 @@
               height="260"
             />
             <h3 class="title">Михаил Ермаков</h3>
-            <p lang="en">UI Designer</p>
+            <p lang="en" class="text">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <!-- Подвал -->
     <footer class="footer-bgc">
-      <a href="./index.html" class="logo"><span class="pre-logo">Web</span>Studio</a>
+      <a href="./index.html" class="logo link"><span class="pre-logo">Web</span>Studio</a>
       <address>
-        <ul class="list">
+        <ul class="address-list list">
           <li>
-            <a href="" class="work-address">г. Киев, пр-т Леси Украинки, 26</a>
+            <a href="" class="work-address link">г. Киев, пр-т Леси Украинки, 26</a>
           </li>
           <li>
-            <a href="mailto:info@example.com" class="contacts">info@example.com</a>
+            <a href="mailto:info@example.com" class="contacts link">info@example.com</a>
           </li>
           <li>
-            <a href="tel:+380991111111" class="contacts">+38 099 111 11 11</a>
+            <a href="tel:+380991111111" class="contacts link">+38 099 111 11 11</a>
           </li>
         </ul>
       </address>
