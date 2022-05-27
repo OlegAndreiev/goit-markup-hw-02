@@ -55,9 +55,6 @@ body {
   border-style: none;
 }
 
-/* .site-nav .link:hover,
-.site-nav .link:focus */
-
 .button:hover,
 .button:focus {
   color: rgba(255, 255, 255, 1);
@@ -199,4 +196,23 @@ body {
 
 .projects-list .item {
   color: var(--primary-text-color);
+}
+
+/* Фильтр */
+
+.button-filter {
+  color: rgba(33, 33, 33, 1);
+  background-color: rgba(245, 244, 250, 1);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  border-style: none;
+}
+
+.button-filter:hover,
+.button-filter:focus {
+  color: rgba(255, 255, 255, 1);
+  background-color: var(--accent-color);
 }
