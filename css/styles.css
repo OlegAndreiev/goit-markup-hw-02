@@ -11,6 +11,8 @@
 /* Цвет в футере rgba(255, 255, 255, 0.6) */
 
 :root {
+  --logo-header-text-color: black;
+  --logo-footer-text-color: white;
   --primary-text-color: rgba(117, 117, 117, 1);
   --title-text-color: rgba(33, 33, 33, 1);
   --accent-color: rgba(33, 150, 243, 1);
@@ -40,6 +42,18 @@ body {
   overflow: hidden;
 }
 
+/* Для всех ссылок */
+.link {
+  text-decoration: none;
+}
+
+/* Для всех списков */
+.list {
+  list-style: none;
+}
+
+/* -----------------Главная-----------------*/
+
 /* Кнопка */
 .button {
   color: rgba(255, 255, 255, 1);
@@ -61,19 +75,9 @@ body {
   background-color: rgba(24, 140, 232, 1);
 }
 
-/* Для всех ссылок */
-.link {
-  text-decoration: none;
-}
-
-/* Для всех списков */
-.list {
-  list-style: none;
-}
-
 /* Логотип */
-.logo {
-  color: var(--title-text-color);
+.logo-header {
+  color: var(--logo-header-text-color);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -82,6 +86,14 @@ body {
 
 .pre-logo {
   color: var(--accent-color);
+}
+
+.logo-footer {
+  color: var(--logo-footer-text-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 /* Site nav */
@@ -188,14 +200,23 @@ body {
   font-style: normal;
 }
 
-/* Портолио */
+/* -----------------Портолио-----------------*/
 
 .projects-list .title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .projects-list .item {
   color: var(--primary-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
 }
 
 /* Фильтр */
