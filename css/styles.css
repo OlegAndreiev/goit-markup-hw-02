@@ -23,9 +23,10 @@ body {
   color: var(--primary-text-color);
 
   font-family: var(--primary-font-family);
-  letter-spacing: 0.03em;
-  font-size: 14px;
-  line-height: 1.71;
+  /* Убрать? */
+  /* letter-spacing: 0.03em; */
+  /* font-size: 14px; */
+  /* line-height: 1.71; */
 }
 
 .visually-hidden {
@@ -90,6 +91,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .logo-footer {
@@ -157,6 +159,7 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* Features */
@@ -167,6 +170,13 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.features-list .text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /* Team  */
@@ -176,11 +186,13 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 
 .team-list .text {
   font-size: 16px;
   line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 
 .team-bgc {
@@ -200,11 +212,17 @@ body {
 .work-address {
   color: var(--button-text-color);
   font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .contacts {
   color: var(--contacts-text-color);
   font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /* -----------------Портолио-----------------*/
@@ -219,6 +237,7 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  letter-spacing: 0.03em;
   border-style: none;
   cursor: pointer;
 }
@@ -249,6 +268,7 @@ body {
 
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.03em;
 }
 
 .card {
